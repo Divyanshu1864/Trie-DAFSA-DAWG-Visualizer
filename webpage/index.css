@@ -1,0 +1,105 @@
+html,
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 1px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h1 {
+    margin: -10px 0px 0px 0px;
+    text-align: center;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-description {
+    width: 300px;
+    text-align: center;
+    margin: 25px auto 30px;
+}
+
+.graphVis {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+}
+
+.dawg-graph {
+    margin: 100px 0px;
+}
+
+hr {
+    width: 40%;
+}
+
+.graphVis .title {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.graphVis .g-container {
+    margin: 20px auto;
+}
+
+.inputContainer input[type=text] {
+    border: none;
+    float: none;
+    display: block;
+    height: 70px;
+    width: 300px;
+    font-size: 14pt;
+    text-align: center;
+    margin: 0px auto 10px;
+    border-radius: 150px;
+    border: 1px solid rgb(100, 100, 100);
+    transition: 0.2s;
+}
+
+.inputContainer input[type=text]:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 40px #d9d9d9;
+
+}
+
+.build-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.build-btn>button {
+    width: auto;
+    padding: 20px 40px;
+    display: inline;
+    border-radius: 50px;
+    border: 1px solid rgb(100, 100, 100);
+    margin: 10px auto 0px;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.build-btn>button:hover,
+.build-btn>button:focus {
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 40px #d9d9d9;
+}
+
+.build-btn>button:focus {
+    outline: none;
+
+}

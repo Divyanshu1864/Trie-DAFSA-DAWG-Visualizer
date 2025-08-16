@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./lib/main.js"></script>
+        <script src="./viz.js/viz.js"></script>
+        <script src="./viz.js/full.render.js"></script>
+        <script src="./utils/index.js"></script>
+        <link href="./index.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <title>DAFSA Visualizer</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                <h1>
+                    DAFSA Visualizer
+                    <a
+                        class="github-button"
+                        href="https://github.com/Keivan-sf/dafsa-visualizer"
+                        data-show-count="true"
+                        aria-label="Star keivan-sf/rjdl on GitHub"
+                        >Star</a
+                    >
+                </h1>
+                <div class="main-description">
+                    A simple Trie and DAFSA/DAWG builder
+                </div>
+                <div class="inputContainer">
+                    <input type="text" placeholder="cat, cats, car, cars" />
+                    <div class="build-btn"><button>Build</button></div>
+                </div>
+            </header>
+        </div>
+        <div class="graphVis trie-graph">
+            <h4 class="title">Trie</h4>
+            <hr />
+            <div class="g-container"></div>
+        </div>
+        <div class="graphVis dawg-graph">
+            <h4 class="title">DAFSA/DAWG</h4>
+            <hr />
+            <div class="g-container"></div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
